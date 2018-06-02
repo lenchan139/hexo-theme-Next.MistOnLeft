@@ -7,7 +7,9 @@ $(document).ready(function () {
     if(bwol < 975){
         $('aside#sidebar').css("display","none");
         $('body').css("paddingLeft","0px");
-    }
+    }else{
+        $(".sidebar-toggle").click();
+      }
 }
 window.onresize = function(){
     var bwos=document.body.offsetWidth;
