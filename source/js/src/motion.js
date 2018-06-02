@@ -2,7 +2,19 @@
 
 $(document).ready(function () {
   NexT.motion = {};
-
+  window.onload=function(){
+    var bwol=document.body.offsetWidth;
+    if(bwol < 975){
+        $('aside#sidebar').css("display","none");
+        $('body').css("paddingLeft","0px");
+    }
+}
+window.onresize = function(){
+    var bwos=document.body.offsetWidth;
+    bwos < 975 && $('body').velocity('stop').velocity({paddingLeft: 0},0);
+    if($('aside#sidebar').css('display') != 'none' && $('aside#sidebar').css('width')!='0px')
+        $('body').velocity('stop').velocity({paddingLeft: 350},0);
+}
   var sidebarToggleLines = {
     lines: [],
     push: function (line) {
