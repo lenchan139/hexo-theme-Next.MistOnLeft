@@ -16,6 +16,8 @@
 [![hexo-image]][hexo-url]
 [![lic-image]][lic-url]
 
+## SideBar On Left for Mist&Muse
+<img src="https://raw.githubusercontent.com/lenchan139/hexo-theme-NextLeft/master/.github/Screenshot_20180602_235008.png"/>
 ## Live Preview
 
 * :heart_decoration: Muse scheme: [LEAFERx](https://leaferx.online) | [XiaMo](https://notes.wanghao.work) | [OAwan](https://oawan.me)
@@ -31,7 +33,7 @@ Simplest way to install is by cloning whole repository:
 
    ```sh
    $ cd hexo
-   $ git clone https://github.com/theme-next/hexo-theme-next themes/next
+   $ git clone https://github.com/lenchan139/hexo-theme-NextLeft themes/nextLeft
    ```
 
 Or you can see [detailed installation instructions][docs-installation-url] if you want any other variant.
